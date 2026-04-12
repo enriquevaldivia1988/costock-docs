@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad — Costock</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #FAFAF7;
+      color: #1a1a1a;
+      line-height: 1.7;
+      padding: 0 16px 64px;
+    }
+    header {
+      background: #2E7D32;
+      color: white;
+      padding: 32px 24px;
+      margin: 0 -16px 40px;
+    }
+    header h1 { font-size: 1.8rem; font-weight: 700; }
+    header p  { font-size: 0.9rem; opacity: 0.85; margin-top: 6px; }
+    .container { max-width: 760px; margin: 0 auto; }
+    h2 {
+      color: #2E7D32;
+      font-size: 1.2rem;
+      margin: 36px 0 12px;
+      border-left: 4px solid #CAA804;
+      padding-left: 12px;
+    }
+    p, li { font-size: 0.97rem; margin-bottom: 10px; }
+    ul { padding-left: 20px; }
+    a { color: #2E7D32; }
+    .lang-switch {
+      text-align: right;
+      margin-bottom: 8px;
+      font-size: 0.85rem;
+    }
+    .lang-switch a { color: #2E7D32; font-weight: 600; text-decoration: none; }
+    #en { display: none; }
+    .updated {
+      background: #f0f4f0;
+      border: 1px solid #c8e0c8;
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-size: 0.85rem;
+      margin-bottom: 28px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍲 Costock</h1>
+    <p>Costeo de recetas y gestión de inventario de cocina</p>
+  </header>
+
+  <div class="container">
+    <div class="lang-switch">
+      <a href="#" onclick="showLang('es')">Español</a> |
+      <a href="#" onclick="showLang('en')">English</a>
+    </div>
+
+    <!-- ESPAÑOL -->
+    <div id="es">
+      <h1 style="font-size:1.5rem;margin-bottom:8px;">Política de Privacidad</h1>
+      <div class="updated">Última actualización: abril 2026 · Desarrollador: Codebugs · Contacto: <a href="mailto:apps@enriquevaldivia.dev">apps@enriquevaldivia.dev</a></div>
+
+      <p>Esta Política de Privacidad describe cómo <strong>Costock</strong> recopila, usa y protege tu información personal cuando usas nuestra aplicación móvil para Android.</p>
+
+      <h2>1. Información que recopilamos</h2>
+      <ul>
+        <li><strong>Cuenta:</strong> Dirección de correo electrónico y contraseña cifrada (a través de Supabase Auth). Nunca almacenamos contraseñas en texto plano.</li>
+        <li><strong>Datos de la app:</strong> Recetas, ingredientes, compras, precios, inventario y reportes que tú mismo introduces. Estos datos son privados y solo tú puedes acceder a ellos.</li>
+        <li><strong>Datos de uso (Firebase Analytics):</strong> Información anónima sobre las funciones que usas (sin datos personales identificables). Usamos esto para mejorar la app.</li>
+        <li><strong>Reportes de errores (Firebase Crashlytics):</strong> Si la app falla, enviamos automáticamente un reporte técnico del error. Estos reportes no incluyen tus datos de recetas ni información personal.</li>
+        <li><strong>Publicidad (Google AdMob):</strong> Los usuarios del plan gratuito ven anuncios servidos por Google AdMob. Google puede usar identificadores del dispositivo para mostrar anuncios relevantes. Puedes optar por no recibir anuncios personalizados en los ajustes de tu dispositivo.</li>
+      </ul>
+
+      <h2>2. Cómo usamos tu información</h2>
+      <ul>
+        <li>Para crear y gestionar tu cuenta de usuario</li>
+        <li>Para sincronizar tus recetas e inventario entre dispositivos</li>
+        <li>Para mejorar la app mediante análisis anónimos de uso</li>
+        <li>Para diagnosticar y corregir errores técnicos</li>
+        <li>Para mostrarte publicidad relevante (solo plan gratuito)</li>
+      </ul>
+
+      <h2>3. Compartición de datos</h2>
+      <p><strong>No vendemos tu información personal.</strong> Solo compartimos datos con los siguientes proveedores de servicios:</p>
+      <ul>
+        <li><strong>Supabase</strong> — almacenamiento seguro de tu cuenta y datos de la app (<a href="https://supabase.com/privacy" target="_blank">política de privacidad</a>)</li>
+        <li><strong>Google Firebase</strong> — analytics y reportes de errores (<a href="https://firebase.google.com/support/privacy" target="_blank">política de privacidad</a>)</li>
+        <li><strong>Google AdMob</strong> — publicidad en plan gratuito (<a href="https://policies.google.com/privacy" target="_blank">política de privacidad</a>)</li>
+      </ul>
+
+      <h2>4. Retención de datos</h2>
+      <p>Tus datos se conservan mientras tengas una cuenta activa. Puedes solicitar la eliminación de tu cuenta y todos tus datos escribiendo a <a href="mailto:apps@enriquevaldivia.dev">apps@enriquevaldivia.dev</a>.</p>
+
+      <h2>5. Seguridad</h2>
+      <p>Todos los datos se transmiten cifrados mediante HTTPS/TLS. Las contraseñas se almacenan con hash seguro. Los datos de la app se almacenan en servidores de Supabase con cifrado en reposo.</p>
+
+      <h2>6. Menores de edad</h2>
+      <p>Costock no está dirigida a menores de 13 años. No recopilamos intencionalmente datos de niños. Si eres padre/madre y crees que tu hijo ha proporcionado datos, contáctanos para eliminarlos.</p>
+
+      <h2>7. Tus derechos</h2>
+      <ul>
+        <li>Acceder a tus datos personales</li>
+        <li>Solicitar corrección o eliminación de tus datos</li>
+        <li>Optar por no recibir anuncios personalizados (en ajustes del dispositivo)</li>
+        <li>Exportar tus datos en formato PDF/Excel desde la app</li>
+      </ul>
+
+      <h2>8. Cambios en esta política</h2>
+      <p>Si realizamos cambios importantes, te notificaremos en la app o por correo electrónico. El uso continuado de Costock después de los cambios constituye tu aceptación de la nueva política.</p>
+
+      <h2>9. Contacto</h2>
+      <p>Para cualquier consulta sobre privacidad: <a href="mailto:apps@enriquevaldivia.dev">apps@enriquevaldivia.dev</a></p>
+    </div>
+
+    <!-- ENGLISH -->
+    <div id="en">
+      <h1 style="font-size:1.5rem;margin-bottom:8px;">Privacy Policy</h1>
+      <div class="updated">Last updated: April 2026 · Developer: Codebugs · Contact: <a href="mailto:apps@enriquevaldivia.dev">apps@enriquevaldivia.dev</a></div>
+
+      <p>This Privacy Policy describes how <strong>Costock</strong> collects, uses, and protects your personal information when you use our Android mobile app.</p>
+
+      <h2>1. Information We Collect</h2>
+      <ul>
+        <li><strong>Account:</strong> Email address and encrypted password (via Supabase Auth). We never store passwords in plain text.</li>
+        <li><strong>App Data:</strong> Recipes, ingredients, purchases, prices, inventory, and reports you enter. This data is private and only you can access it.</li>
+        <li><strong>Usage Data (Firebase Analytics):</strong> Anonymous information about features you use (no personally identifiable data). Used to improve the app.</li>
+        <li><strong>Crash Reports (Firebase Crashlytics):</strong> If the app crashes, we automatically send a technical error report. These reports do not include your recipe data or personal information.</li>
+        <li><strong>Advertising (Google AdMob):</strong> Free plan users see ads served by Google AdMob. Google may use device identifiers to show relevant ads. You can opt out of personalized ads in your device settings.</li>
+      </ul>
+
+      <h2>2. How We Use Your Information</h2>
+      <ul>
+        <li>To create and manage your user account</li>
+        <li>To sync your recipes and inventory across devices</li>
+        <li>To improve the app through anonymous usage analytics</li>
+        <li>To diagnose and fix technical errors</li>
+        <li>To show you relevant advertising (free plan only)</li>
+      </ul>
+
+      <h2>3. Data Sharing</h2>
+      <p><strong>We do not sell your personal information.</strong> We only share data with the following service providers:</p>
+      <ul>
+        <li><strong>Supabase</strong> — secure storage for your account and app data (<a href="https://supabase.com/privacy" target="_blank">privacy policy</a>)</li>
+        <li><strong>Google Firebase</strong> — analytics and crash reporting (<a href="https://firebase.google.com/support/privacy" target="_blank">privacy policy</a>)</li>
+        <li><strong>Google AdMob</strong> — advertising on free plan (<a href="https://policies.google.com/privacy" target="_blank">privacy policy</a>)</li>
+      </ul>
+
+      <h2>4. Data Retention</h2>
+      <p>Your data is retained while you have an active account. You can request deletion of your account and all data by emailing <a href="mailto:apps@enriquevaldivia.dev">apps@enriquevaldivia.dev</a>.</p>
+
+      <h2>5. Security</h2>
+      <p>All data is transmitted encrypted via HTTPS/TLS. Passwords are stored with secure hashing. App data is stored on Supabase servers with encryption at rest.</p>
+
+      <h2>6. Children</h2>
+      <p>Costock is not directed at children under 13. We do not knowingly collect data from children. If you are a parent and believe your child has provided data, contact us to have it deleted.</p>
+
+      <h2>7. Your Rights</h2>
+      <ul>
+        <li>Access your personal data</li>
+        <li>Request correction or deletion of your data</li>
+        <li>Opt out of personalized ads (in device settings)</li>
+        <li>Export your data as PDF/Excel from within the app</li>
+      </ul>
+
+      <h2>8. Changes to This Policy</h2>
+      <p>If we make significant changes, we will notify you in the app or by email. Continued use of Costock after changes constitutes your acceptance of the new policy.</p>
+
+      <h2>9. Contact</h2>
+      <p>For any privacy inquiries: <a href="mailto:apps@enriquevaldivia.dev">apps@enriquevaldivia.dev</a></p>
+    </div>
+  </div>
+
+  <script>
+    function showLang(lang) {
+      document.getElementById('es').style.display = lang === 'es' ? 'block' : 'none';
+      document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    }
+  </script>
+</body>
+</html>
