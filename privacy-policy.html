@@ -71,7 +71,7 @@
 
       <h2>1. Información que recopilamos</h2>
       <ul>
-        <li><strong>Cuenta:</strong> Dirección de correo electrónico y contraseña cifrada (a través de Supabase Auth). Nunca almacenamos contraseñas en texto plano.</li>
+        <li><strong>Cuenta:</strong> Dirección de correo electrónico (a través de Google Sign-In y Supabase Auth). No almacenamos contraseñas.</li>
         <li><strong>Datos de la app:</strong> Recetas, ingredientes, compras, precios, inventario y reportes que tú mismo introduces. Estos datos son privados y solo tú puedes acceder a ellos.</li>
         <li><strong>Datos de uso (Firebase Analytics):</strong> Información anónima sobre las funciones que usas (sin datos personales identificables). Usamos esto para mejorar la app.</li>
         <li><strong>Reportes de errores (Firebase Crashlytics):</strong> Si la app falla, enviamos automáticamente un reporte técnico del error. Estos reportes no incluyen tus datos de recetas ni información personal.</li>
@@ -99,7 +99,7 @@
       <p>Tus datos se conservan mientras tengas una cuenta activa. Puedes solicitar la eliminación de tu cuenta y todos tus datos escribiendo a <a href="mailto:apps@enriquevaldivia.dev">apps@enriquevaldivia.dev</a>.</p>
 
       <h2>5. Seguridad</h2>
-      <p>Todos los datos se transmiten cifrados mediante HTTPS/TLS. Las contraseñas se almacenan con hash seguro. Los datos de la app se almacenan en servidores de Supabase con cifrado en reposo.</p>
+      <p>Todos los datos se transmiten cifrados mediante HTTPS/TLS. La autenticacion se realiza via Google Sign-In. Los datos de la app se almacenan en servidores de Supabase con cifrado en reposo.</p>
 
       <h2>6. Menores de edad</h2>
       <p>Costock no está dirigida a menores de 13 años. No recopilamos intencionalmente datos de niños. Si eres padre/madre y crees que tu hijo ha proporcionado datos, contáctanos para eliminarlos.</p>
@@ -128,7 +128,7 @@
 
       <h2>1. Information We Collect</h2>
       <ul>
-        <li><strong>Account:</strong> Email address and encrypted password (via Supabase Auth). We never store passwords in plain text.</li>
+        <li><strong>Account:</strong> Email address (via Google Sign-In and Supabase Auth). We do not store passwords.</li>
         <li><strong>App Data:</strong> Recipes, ingredients, purchases, prices, inventory, and reports you enter. This data is private and only you can access it.</li>
         <li><strong>Usage Data (Firebase Analytics):</strong> Anonymous information about features you use (no personally identifiable data). Used to improve the app.</li>
         <li><strong>Crash Reports (Firebase Crashlytics):</strong> If the app crashes, we automatically send a technical error report. These reports do not include your recipe data or personal information.</li>
@@ -156,7 +156,7 @@
       <p>Your data is retained while you have an active account. You can request deletion of your account and all data by emailing <a href="mailto:apps@enriquevaldivia.dev">apps@enriquevaldivia.dev</a>.</p>
 
       <h2>5. Security</h2>
-      <p>All data is transmitted encrypted via HTTPS/TLS. Passwords are stored with secure hashing. App data is stored on Supabase servers with encryption at rest.</p>
+      <p>All data is transmitted encrypted via HTTPS/TLS. Authentication is handled via Google Sign-In. App data is stored on Supabase servers with encryption at rest.</p>
 
       <h2>6. Children</h2>
       <p>Costock is not directed at children under 13. We do not knowingly collect data from children. If you are a parent and believe your child has provided data, contact us to have it deleted.</p>
